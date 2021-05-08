@@ -1,0 +1,77 @@
+[33mcommit 14abbf4ef42345897f23c40a0c40046abf66e545[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m)[m
+Author: Pericles001 <periclesadjovi@utlook.fr>
+Date:   Sat May 8 19:47:57 2021 +0100
+
+    set rotae function on each time advance
+
+[33mcommit 3de66d134aa9bc84d3fe69364a1720c1d35df4f3[m
+Author: Pericles001 <periclesadjovi@utlook.fr>
+Date:   Sat May 8 19:28:46 2021 +0100
+
+    calculate which degree the div should turn at
+
+[33mcommit 37e03161eae735f6b02a3469f88e278b4b7f0967[m
+Author: Pericles001 <periclesadjovi@utlook.fr>
+Date:   Sat May 8 19:28:12 2021 +0100
+
+    Calculate which degree seconds bar should turn at
+
+[33mcommit 1f53e2817f106821f3f73d2d5c39d62de377ca31[m
+Author: Pericles001 <periclesadjovi@utlook.fr>
+Date:   Sat May 8 18:56:52 2021 +0100
+
+    define transform origin , transition function and define consts
+
+[33mcommit fe6c9b2a52e734fd0d030342a44f70c33ab8db00[m
+Author: Pericles001 <periclesadjovi@utlook.fr>
+Date:   Fri May 7 19:27:02 2021 +0100
+
+    setting up second project
+
+[33mcommit 74a4d40439e8f14f2a9b2cda988064b449c6c55e[m
+Author: Pericles001 <periclesadjovi@utlook.fr>
+Date:   Thu May 6 21:56:34 2021 +0100
+
+    put js file into project folder
+
+[33mcommit c0ca66430844abd0c68a99d2503fd07c23748f3c[m
+Author: Pericles001 <periclesadjovi@utlook.fr>
+Date:   Thu May 6 21:31:58 2021 +0100
+
+    trying to push
+
+[33mcommit c02abf85ed3e65aaa43be56bdddbd3e630d11c3a[m
+Author: Pericles001 <periclesadjovi@utlook.fr>
+Date:   Thu May 6 20:55:48 2021 +0100
+
+    reorder functions and variables
+
+[33mcommit 92f6be7fad5b90162b1933953cb8282415f5276a[m
+Author: Pericles001 <periclesadjovi@utlook.fr>
+Date:   Thu May 6 20:30:47 2021 +0100
+
+    playing audio on keydown
+
+[33mcommit 44b47e7f1ab824c23cc089a657edfd61c68c4b44[m
+Author: Pericles001 <periclesadjovi@utlook.fr>
+Date:   Thu May 6 20:25:11 2021 +0100
+
+    add a new sound file
+
+[33mcommit d0ba7c3c56e49da89eb979fc8e446faab9552e5c[m
+Author: Pericles001 <periclesadjovi@utlook.fr>
+Date:   Thu May 6 20:17:35 2021 +0100
+
+    declared audio variable to store keycode
+
+[33mcommit 1425a21a52afb5e1af8d11fe027368517d60a992[m
+Author: Pericles001 <periclesadjovi@utlook.fr>
+Date:   Thu May 6 20:05:20 2021 +0100
+
+    ended project setup
+
+[33mcommit a30d1e932d3570713532862bb1bb11e3528e9bda[m
+Author: Pericles001 <periclesadjovi@utlook.fr>
+Date:   Thu May 6 19:20:48 2021 +0100
+
+    first commit
