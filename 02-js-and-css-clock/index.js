@@ -9,7 +9,7 @@
 
       setInterval(function () {
         const now = new Date();
-        const secondDegrees = (second / 60) * 360 + 90;
+       
         secondHand.style.transform = `rotate(${calcDegree(
           now.getSeconds(),
           60
@@ -24,5 +24,5 @@
           now.getHours(),
           24
         )}deg)`;
-        console.log(hour + ":" + minute + ":" + second);
+       
       }, 1000);

@@ -63,7 +63,13 @@
       :root {
         --base: #ffc600;
         --blur: 10px;
-        --padding: 10px;
+        --spacing: 10px;
+      }
+
+      img {
+        padding: var(--spacing);
+        background: var(--base);
+        filter: blur(var(--blur));
       }
 
       .hl {
@@ -73,12 +79,13 @@
 
     <script>
       let help = "";
-      const allInput = document.querySelector(".controls input");
-      let i = 0;
+      const inputs = document.querySelectorAll(".controls input");
 
-      for (i = 0; i < allInput.length; i++) {
-     console.log(allInput[i].nodeName);
+      function handleUpdate() {
+        console.log(this.value);
       }
+      inputs.forEach((input) => input.addEventListener("change", handleUpdate));
+      inputs.forEach((input) => input.addEventListener("mousemove", handleUpdate));
     </script>
   </body>
 </html>
