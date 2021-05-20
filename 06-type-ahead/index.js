@@ -5,3 +5,6 @@ fetch(endpoint)
 
     const searchInput = document.querySelector('.search');
     const suggestion = document.querySelector('.suggestion');
+
+    searchInput.addEventListener('change', displayMatches);
+    searchInput.addEventListener('keyup', displayMatches);
