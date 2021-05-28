@@ -27,6 +27,9 @@ console.log(people.every(older))
   // Array.prototype.find()
   // Find is like filter, but instead returns just the one you are looking for
   // find the comment with the ID of 823423
+const found = comments.find((elem)=>elem.id == 823423)
+console.log(found)
+
 
   // Array.prototype.findIndex()
   // Find the comment with this ID
