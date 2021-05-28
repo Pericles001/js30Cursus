@@ -32,5 +32,11 @@ console.log(found)
 
 
   // Array.prototype.findIndex()
+
   // Find the comment with this ID
+  const foundIndex = (elem)=>elem.id ==823423
+  console.log(comments.findIndex(foundIndex))
   // delete the comment with the ID of 823423
+comments.splice(1,1)
+console.table(comments)
+  
