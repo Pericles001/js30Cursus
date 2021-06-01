@@ -26,23 +26,21 @@ function draw(e) {
   if (hue >= 360) {
     hue = 0;
   }
-  if(ctx.lineWidth >= 100 || ctx.lineWidth <= 1){
-    direction = !direction
+  if (ctx.lineWidth >= 100 || ctx.lineWidth <= 1) {
+    direction = !direction;
   }
 
-if(direction){
-  ctx.lineWidth++
-}else{
-  ctx.lineWidth--
+  if (direction) {
+    ctx.lineWidth++;
+  } else {
+    ctx.lineWidth--;
+  }
 }
 
-}
+canvas.addEventListener("mousedown", (e) => {
+  isDrawing = true[(lastX, lastY)] = [e.offsetX, e.offSetY];
+});
 
-canvas.addEventListener('mousedown', (e)=>{
-  isDrawing = true
-  [lastX,lastY] = [e.offsetX, e.offSetY]
-})
-
-canvas.addEventListener('mousemove', draw)
-canvas.addEventListener('mouseup', ()=>isDrawing = false)
-canvas.addEventListener('mouseout', ()=>isDrawing = false)
+canvas.addEventListener("mousemove", draw);
+canvas.addEventListener("mouseup", () => (isDrawing = false));
+canvas.addEventListener("mouseout", () => (isDrawing = false));
