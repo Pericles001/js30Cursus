@@ -59,6 +59,14 @@
       console.count("hello");
       console.count("counter");
       // timing
+      console.time('fetch data timer')
+      fetch('https://api.github.com/users/nitishdayal')
+      .then(data=>data.json)
+      .then(data=>{
+        console.timeEnd('fetch data timer')
+        console.log(data)
+      })
     </script>
+
   </body>
 </html>
