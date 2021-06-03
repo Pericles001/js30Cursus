@@ -1,11 +1,14 @@
-let grades =  [50,20,10,45,56,20,22,23,54,78,89]
+let grades =  [-5,105,95,75,05,15,25,35,45,55,65]
 
 
 function gradingStudents(arr){
-arr.forEach((elem)=>{
-    console.log(elem)
+arr.forEach((elem, index)=>{
+   if(elem < 38){
+       arr.splice(index, 1)
+   }
+   console.log(arr)
 })
 return 'try'
 }
 
-gradindStudents(grades)
+gradingStudents(grades)
