@@ -4,8 +4,16 @@ function tester(num){
   if(num % 2 != 0 ){
     console.log('Weird')
   }else{
-    if(num <= 5 && >=2){
+    if(num <= 5 && num >= 2){
+      console.log('Not Weird')
+    }else if(num >= 6 && num <= 20 ){
+      console.log('Weird')
+    }else{
       console.log('Not Weird')
     }
-  }
+  } 
 }
+
+number.forEach((elem, index)=>{
+  tester(elem)
+})
