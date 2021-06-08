@@ -1,30 +1,11 @@
-let grades = [-5, 105, 95, 75, 05, 15, 25, 35, 45, 55, 65, 87, 17, 67];
+let number = [5,4,10,23,12]
 
-function gradingStudents(arr) {
-  for (let i = 0; i < arr.length; i++) {
-    if (arr[i] < 38) {
-      arr.forEach((elem, index) => {
-        console.table(elem, arr[index + 1]);
-        if (elem < 38 && arr[index + 1] < 38) {
-          arr.splice(index, 2);
-        } else if (elem < 38) {
-          arr.splice(index, 1);
-        } else if (arr[index + 1] < 38) {
-          arr.splice(index + 1, 1);
-        } else {
-          console.log("hourra clean");
-        }
-      });
+function tester(num){
+  if(num % 2 != 0 ){
+    console.log('Weird')
+  }else{
+    if(num <= 5 && >=2){
+      console.log('Not Weird')
     }
   }
-
-  console.table(arr);
-
-  return "try";
 }
-
-gradingStudents(grades);
-/*
-
-
-  */
