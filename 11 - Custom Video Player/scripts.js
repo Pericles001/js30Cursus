@@ -1,5 +1,10 @@
 let grades = [-5, 105, 95, 75, 05, 15, 25, 35, 45, 55, 65, 87, 17, 67];
 
+function splitToDigit(n) {
+    return (n + '').split('').map((i) => { return Number(i); })
+}
+
+
 function gradingStudents(arr) {
     for (let i = 0; i < arr.length; i++) {
         if (arr[i] < 38) {
@@ -16,11 +21,7 @@ function gradingStudents(arr) {
         }
     }
 
-    return (arr);
+
+    console.table(arr)
+    return 0;
 }
-
-gradingStudents(grades);
-/*
-
-
-  */
