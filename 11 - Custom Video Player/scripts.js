@@ -1,3 +1,4 @@
+/* test for another purpose
 let grades = [-5, 105, 95, 75, 05, 15, 25, 35, 45, 55, 65, 87, 17, 67];
 
 function splitToDigit(n) {
@@ -38,3 +39,4 @@ function gradingStudents(arr) {
 }
 
 gradingStudents(grades);
+*/
